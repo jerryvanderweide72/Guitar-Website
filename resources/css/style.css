@@ -56,6 +56,7 @@ h1 {
     font-size: 200%;
 }
 
+
 /* ========================================== */
 /* MAIN NAV */
 /* ========================================== */
@@ -220,7 +221,46 @@ hr {
     margin-bottom: 60px;
 }
 
+/* ========================================== */
+/* TRIBUTE */
+/* ========================================== */
 
+.container {
+    width: 100%;
+    height: 570px;
+}
+
+.container li {
+    display: inline-block;
+    margin-right: -27px;
+    width: 33.33%;
+}
+
+.dime {
+    background-image: url(../img/dime2.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.randy {
+    background-image: url(../img/randy2.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.stevie {
+    background-image: url(../img/stevie2.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
 
 
 /* ========================================== */
