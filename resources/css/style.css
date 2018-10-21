@@ -10,9 +10,9 @@
 
 html,
 body {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     text-rendering: optimizeLegibility;
     color: #fff;
 }
@@ -136,10 +136,10 @@ h1 {
 .sel-box {
     text-transform: uppercase;
     width: 200px;
-    height: 40px;
+    height: 48px;
     border-radius: 5px;
     font-size: 100%;
-    font-family: 'Amiri', sans-serif;
+    font-family: 'Crimson Text', sans-serif;
     text-align-last: center;
 }
 
@@ -151,7 +151,7 @@ h1 {
 
 .go-btn {
     margin-top: 60px;
-    padding-top: 6px;
+    padding-top: 3px;
     font-size: 120%;
     width: 200px;
     height: 40px;
@@ -178,6 +178,7 @@ h1 {
 .your-choice {
     margin-top: 60px;
     line-height: 140%;
+    font-size: 120%
 }
 
 
@@ -185,8 +186,9 @@ h1 {
 /* HOW TO */
 /* ========================================== */
 
+
 .descrip {
-    margin-top: 90px;
+    margin-top: 60px;
     color: #656565;
     text-align: center;
     width: 700px;
@@ -196,13 +198,13 @@ h1 {
     color: #656565;
     margin-top: 60px;
     width: 100%;
-    height: 300px;
+    height: 250px;
     text-align: justify;
     line-height: 145%;
 }
 
 .how-to h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .how-to p {
@@ -218,7 +220,7 @@ hr {
     box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.5);
     width: 1300px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 /* ========================================== */
@@ -237,12 +239,26 @@ hr {
 }
 
 .dime {
-    background-image: url(../img/dime2.jpeg);
+    background-image: url(../img/dime3.jpeg);
     background-size: 100% 540px;
     float: left;
     height: 540px;
     background-repeat: no-repeat;
     margin-bottom: 50px;
+}
+
+.dime h2,
+.randy h2,
+.stevie h2 {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.dime p,
+.randy p {
+    margin-left: 3%;
+    font-size: 110%
 }
 
 .randy {
@@ -253,6 +269,8 @@ hr {
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
+
+
 .stevie {
     background-image: url(../img/stevie2.jpeg);
     background-size: 100% 540px;
@@ -260,6 +278,20 @@ hr {
     height: 540px;
     background-repeat: no-repeat;
     margin-bottom: 50px;
+}
+
+.stevie h2 {
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.stevie p {
+    clear: both;
+    float: right;
+    margin-right: 3%;
+    font-size: 110%;
 }
 
 
@@ -310,9 +342,15 @@ input[type = checkbox] {
     margin: 10px 5px 30px 0px;
 }
 
+input[name = bass],
+input[name = acoustic] {
+    margin-left: 30px;
+}
+
+
 .send-btn {
     margin-top: 20px;
-    padding-top: 6px;
+    padding-top: 3px;
     font-size: 120%;
     width: 200px;
     height: 40px;
