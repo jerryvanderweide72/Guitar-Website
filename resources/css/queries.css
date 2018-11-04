@@ -58,6 +58,10 @@
 @media only screen and (max-width: 767px) {
     
     /*Nav bar*/
+    .logo {
+        height: 70px;
+    }
+    
     .main-nav { display: none; }
     .mobile-nav-icon { 
         display: inline-block;
@@ -79,6 +83,14 @@
     }
     
     /*Header and selection*/
+    
+    header {
+        height: 1000px;
+    }
+    
+    .choices {
+        top: 38%;
+    }
     
     .select {
         margin-bottom: 15px;
@@ -183,13 +195,12 @@
 /* Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px) {
     /*Nav section*/
-    .logo {
-    height: 70px;
-}
+
     
     /*Header and selection*/
-    header {
-        height: 1050px;
+    
+    .choices {
+        top: 35%;
     }
     
     .go-btn {
