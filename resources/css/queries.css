@@ -74,7 +74,7 @@
         font-size: 130%;
     }
     
-    .how-to h2, h2, h3 {
+    .how-to h2, h3 {
         font-size: 100%;
     }
     
@@ -91,23 +91,25 @@
     .choices {
         top: 38%;
     }
-    
-    .select {
-        margin-bottom: 15px;
-    }
-    
+
     .guitar-selection {
         float: none;
-        width: 200px;
         margin-left: auto;
         margin-right: auto;
     }
     
     .guitar-brand {
         float: none;
-        width: 200px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .lbl-1 {
+        width: 360px;
+    }
+    
+    .lbl-2 {
+        width: 360px;
     }
     
     
@@ -147,13 +149,6 @@
         margin-bottom: 2%;
     }
     
-    .lbl-1 {
-        width: 360px;
-    }
-    
-    .lbl-2 {
-        width: 360px;
-    }
     
     /*Form*/
     input[type = text],
@@ -198,19 +193,26 @@
 
     
     /*Header and selection*/
+
+    .choices h1, h3 {
+        font-size: 95%;
+    }    
     
-    .choices {
-        top: 35%;
+    .sel-box {
+        width: 120px;
+        height: 40px;
+        font-size: 78%;
+        margin-bottom: 5px;
     }
     
-    .go-btn {
-        margin-top: 30px;
+    .sel-box {
+        
     }
     
     .your-choice {
-        margin-top: 30px;
+        font-size: 95%
     }
-
+    
     /*Form*/
     .contact {
         width: 100%;
@@ -233,7 +235,7 @@
     }
     
     .contact-form {
-        margin-left: 22%;
+        margin-left: 19%;
     }
     
     /*Footer*/

@@ -125,12 +125,13 @@ h1 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    height: 600px;
 }
 
 
 
 .select {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 *:focus { outline: none; }
